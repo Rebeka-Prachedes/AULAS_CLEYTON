@@ -13,41 +13,57 @@ var cidadao = "Rebeka";
 var verificar = "";
 
 //igual a:
-if  ( numero1 == numero2) {console.log(verificar, "Verdadeiro, são iguais");}
-
-    else {console.log(verificar, "Falso, variáveis não são iguais");}
-
-// maior:
-
-if (numero1 > numero2) {console.log (verificar, "Verdadeiro, variável 1 é maior que variável 2.");}
-
-    else {console.log(verificar, "Falso, variável 1 não é maior que variável 2.");}
-
-//menor:
-
-if (numero1 < numero2) {console.log(verificar, "Verdadeiro, variável 1 é menor que variável 2.");}
-
-    else {console.log(verificar, "Falso, variável 1 não é maior que variável 2.");}
-
-// Diferente de:
-
-if (numero1 != numero2) {console.log(verificar, "Verdadeiro, variável 1 é diferente de variável 2.");}
-
-    else {console.log(verdadeiro, "Falso, variável 1 não é diferente de variável 2.");}
-
-// maior ou igual:
-
-if (idade1 >= idade2) {console.log(verificar, "Verdadeiro, idade 1 é igual ou maior a idade 2. é maior de idade. ");}
-
-    else {console.log(verificar, "Falso, idade 1 não é maior ou igual a idade 2. " + cidadao + " não é maior de idade.");}
+if  ( numero1 == numero2) {
+    verificar= "verdadeiro, são iguais"
+    console.log("",verificar);
+}else 
+    verificar= "Falso, não são iguais"
+    {console.log("",verificar);}
 
 
-//menor ou igual:
+//maior
+if(numero1>numero2){
+    verificar= "Verdadeiro, é maior"
+    console.log ("", verificar);
+}else{
+    verificar="Falso, não é maior"
+    console.log("",verificar);}
 
-if (idade1 <= idade2) {console.log(verificar, "Verdadeiro, idade 1 é menor ou igual a idade 2. " + cidadao + " é menor de idade.");}
-    
-    else {console.log(verificar, "Falso, idade 1 não é menor ou igual a idade 2." + cidadao + "é maior de idade.");}
-    </script>
+//menor
+if (numero1<numero2){
+    verificar= "Verdadeiro, é menor"
+    console.log ("",verificar);
+}else{
+    verificar="Falso, não é menor"
+    console.log ("",verificar);}
+
+//diferente
+if(numero1!=numero2){
+    verificar="Verdadeiro, são diferentes"
+    console.log("",verificar);
+}else{
+    verificar="Falso, são diferentes"
+    console.log("",verificar);}
+
+//maior ou igual
+if(idade1>=idade2){
+    verificar="Verdadeiro, "+ cidadao + " é maior de idade"
+    console.log("",verificar);
+}else{
+    verificar="Falso, "+ cidadao + " é menor de idade"
+    console.log("",verificar);}
+
+//menor ou igual
+if(idade1<=idade2){
+    verificar="Falso, "+ cidadao + " não é maior de idade"
+    console.log("",verificar);
+}else{
+    verificar="Verdadeiro, é maior de idade"
+    console.log("",verificar);
+}
+
+
+  </script>
 
 
 </body>
